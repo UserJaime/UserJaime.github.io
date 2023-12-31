@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Jaime Agüero Herguera</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Agüero</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#Proyectos" onclick="seleccionar()">PROYECTOS</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Jaime Agüero-modified.png" alt="">
+            </div>
+            <h1>Jaime Agüero</h1>
+            <h2>Desarrollador de aplicaciones multiplataforma</h2>
+            <div class="redes">
+                <a title="jaimeagueroherguera@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/UserJaime" title="Mi gitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://join.skype.com/invite/FNJ14OSrVDZ6" title="Mi skype"><i class="fa-brands fa-skype"></i></a>
+                <a href="https://www.linkedin.com/in/jaime-ag%C3%BCero-herguera-5628072a5/" title="Mi linkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Jaime Agüero.</span> Apasionado de la informática con actitud entusiasta y proactiva, siempre estoy dispuesto a ampliar mis conocimientos y campo de vision. Destaco y disfruto hablando en público, con gran fluided en el idioma Inglés  respaldado por una sólida experiencia laboral en Inglaterra.  </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            606 85 34 71
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            jaimeagueroherguera@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Villaviciosa de Odón
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>Gimnasio</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-language"></i>
+                            <span>Idiomas</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-microchip"></i>
+                            <span>Tecnología</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Libros</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-mountain-sun"></i>
+                            <span>Desarrollo </span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-puzzle-piece"></i>
+                            <span>Juegos</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="CV Jaime Agüero.pdf" download="CV Jaime Agüero.pdf">
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </a>
+            </button>
+            
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Maria Db</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Github</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ciberseguridad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Inglés</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION Proyectos -->
+    <section id="Proyectos" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Proyectos</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <div class="item izq">
+                        <span class="casa">Aplicación móvil</span>
+                        <span class="fecha">2023</span>
+                        <p>Desarrollo de una aplicación movil en Android studio destinada a emular el funcionamiento de un antivirus para todo tipo de dispositivos técnologicos.
+                            En el desarrollo de este microproyecto se trabajó con prototipos navegables de alta calidad y mockups apoyandonos en aplicaciones gestoras de tareas como notion.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <span class="casa">ODOO como SGE</span>
+                        <span class="fecha">2023</span>
+                        <p>Conocimientos en el manejo de la plataforma Odoo como sistema de gestión empresarial. 
+                            Desarrollo de un microproyecto simulando la gestión de una compañía y sus diversos sectores, como la contabilidad, compras, ventas, utilizando la plataforma Odoo Community.
+                            </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <div class="item der">
+                        <span class="casa">Pagina web con acceso a datos</span>
+                        <span class="fecha">2023</span>
+                        <p>Desarrollo de una página web con temática de pokemon mediante el lenguaje de html, javascript y php.
+                            Implementación de una BD destinada al manejo de los datos con plenas funcionalidades y distinción de usuario y permisos entre administrador y público. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <span class="casa">Hackatón solidario UAX</span>
+                        <span class="fecha">2023</span>
+                        <p>Gnadores de el hackatón solidario en grupos de la Universidad Alfonso X el sabio, cuya finalidad consistia en la elaboración de una página web destinada a la red de asociaciones Innicia. La pagina fue desarrollada mediante php, java y javascript entre otros, con una correcta organización
+                            en grupo mediante el diálogo y el uso de Github como herramienta para el desarrollo del software pertinente.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a title="jaimeagueroherguera@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/UserJaime" title="Mi gitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://join.skype.com/invite/FNJ14OSrVDZ6" title="Mi skype"><i class="fa-brands fa-skype"></i></a>
+            <a href="https://www.linkedin.com/in/jaime-ag%C3%BCero-herguera-5628072a5/" title="Mi linkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
